@@ -1,6 +1,6 @@
 {
-  "Core": {
-    "Primary": {
+  "color": {
+    "primary": {
       "Primary_Black": {
         "value": "#191919",
         "type": "color"
@@ -10,7 +10,7 @@
         "type": "color"
       }
     },
-    "Grayscale": {
+    "grayscale": {
       "Gray_50": {
         "value": "#f4f4f4",
         "type": "color"
@@ -52,7 +52,7 @@
         "type": "color"
       }
     },
-    "Secondary": {
+    "secondary": {
       "Blue_50": {
         "value": "#edeef8",
         "type": "color"
@@ -214,7 +214,7 @@
         "type": "color"
       }
     },
-    "Utility": {
+    "utility": {
       "Primary_Force": {
         "value": "#d7990b",
         "type": "color"
@@ -236,7 +236,7 @@
         "type": "color"
       }
     },
-    "Darkmode [day]": {
+    "day": {
       "primary": {
         "value": "#000000",
         "type": "color"
@@ -406,7 +406,7 @@
         "type": "color"
       }
     },
-    "Darkmode [night]": {
+    "night": {
       "primary": {
         "value": "#ffffff",
         "type": "color"
@@ -575,40 +575,9 @@
         "value": "#3e469d",
         "type": "color"
       }
-    },
-    "Drop Shadow Lv1": {
-      "value": {
-        "color": "#0000001f",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 2,
-        "blur": 8,
-        "spread": 0
-      },
-      "type": "boxShadow"
-    },
-    "Drop Shadow Lv2": {
-      "value": {
-        "color": "#00000026",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 4,
-        "blur": 15,
-        "spread": 0
-      },
-      "type": "boxShadow"
-    },
-    "Drop Shadow Lv3": {
-      "value": {
-        "color": "#00000026",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 10,
-        "blur": 25,
-        "spread": 0
-      },
-      "type": "boxShadow"
-    },
+    }
+  },
+  "typography": {
     "fontFamilies": {
       "lora": {
         "value": "Lora",
@@ -731,13 +700,7 @@
         "type": "letterSpacing"
       }
     },
-    "paragraphSpacing": {
-      "0": {
-        "value": "0",
-        "type": "paragraphSpacing"
-      }
-    },
-    "WEB&APP": {
+    "WEB-APP": {
       "Display_L": {
         "value": {
           "fontFamily": "{fontFamilies.lora}",
@@ -1006,95 +969,90 @@
         "value": "underline",
         "type": "textDecoration"
       }
-    },
-    "paragraphIndent": {
-      "0": {
-        "value": "0px",
-        "type": "dimension"
-      }
     }
   },
-  "Border Radius": {
+  "border Radius": {
     "radius-none": {
-      "value": 0,
+      "value": "0",
       "type": "number"
     },
     "radius-sm": {
-      "value": 4,
+      "value": "4",
       "type": "number"
     },
     "radius-md": {
-      "value": 8,
+      "value": "8",
       "type": "number"
     },
     "radius-lg": {
-      "value": 12,
+      "value": "12",
       "type": "number"
     },
     "radius-round": {
-      "value": 50,
+      "value": "50",
       "type": "number"
     }
   },
   "Spacing": {
     "spacing-none": {
-      "value": 0,
+      "value": "0",
       "type": "number"
     },
     "spacing-50": {
-      "value": 4,
+      "value": "4",
       "type": "number"
     },
     "spacing-100": {
-      "value": 8,
+      "value": "8",
       "type": "number"
     },
     "spacing-150": {
-      "value": 12,
+      "value": "12",
       "type": "number"
     },
     "spacing-200": {
-      "value": 16,
+      "value": "16",
       "type": "number"
     },
     "spacing-250": {
-      "value": 20,
+      "value": "20",
       "type": "number"
     },
     "spacing-300": {
-      "value": 24,
+      "value": "24",
       "type": "number"
     },
     "spacing-400": {
-      "value": 28,
+      "value": "28",
       "type": "number"
     },
     "spacing-500": {
-      "value": 32,
+      "value": "32",
       "type": "number"
     },
     "spacing-600": {
-      "value": 40,
+      "value": "40",
       "type": "number"
     },
     "spacing-700": {
-      "value": 48,
+      "value": "48",
       "type": "number"
     },
     "spacing-800": {
-      "value": 64,
+      "value": "64",
       "type": "number"
     },
     "spacing-900": {
-      "value": 96,
+      "value": "96",
       "type": "number"
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Core",
-      "Border Radius",
+      "color",
+      "typography",
+      "border Radius",
       "Spacing"
     ]
   }
