@@ -1,6 +1,6 @@
 {
-  "Core": {
-    "Primary": {
+  "color": {
+    "primary": {
       "Primary_Black": {
         "$type": "color",
         "$value": "#191919"
@@ -10,7 +10,7 @@
         "$value": "#ffffff"
       }
     },
-    "Grayscale": {
+    "grayscale": {
       "Gray_50": {
         "$type": "color",
         "$value": "#f4f4f4"
@@ -52,7 +52,7 @@
         "$value": "#191919"
       }
     },
-    "Secondary": {
+    "secondary": {
       "Blue_50": {
         "$type": "color",
         "$value": "#edeef8"
@@ -214,7 +214,7 @@
         "$value": "#062d1f"
       }
     },
-    "Utility": {
+    "utility": {
       "Primary_Force": {
         "$type": "color",
         "$value": "#d7990b"
@@ -236,7 +236,7 @@
         "$value": "#76c668"
       }
     },
-    "Darkmode [day]": {
+    "day": {
       "primary": {
         "$type": "color",
         "$value": "#000000"
@@ -406,7 +406,7 @@
         "$value": "#dadcf1"
       }
     },
-    "Darkmode [night]": {
+    "night": {
       "primary": {
         "$type": "color",
         "$value": "#ffffff"
@@ -575,40 +575,9 @@
         "$type": "color",
         "$value": "#3e469d"
       }
-    },
-    "Drop Shadow Lv1": {
-      "$type": "boxShadow",
-      "$value": {
-        "color": "#0000001f",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 2,
-        "blur": 8,
-        "spread": 0
-      }
-    },
-    "Drop Shadow Lv2": {
-      "$type": "boxShadow",
-      "$value": {
-        "color": "#00000026",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 4,
-        "blur": 15,
-        "spread": 0
-      }
-    },
-    "Drop Shadow Lv3": {
-      "$type": "boxShadow",
-      "$value": {
-        "color": "#00000026",
-        "type": "dropShadow",
-        "x": 0,
-        "y": 10,
-        "blur": 25,
-        "spread": 0
-      }
-    },
+    }
+  },
+  "typography": {
     "fontFamilies": {
       "lora": {
         "$type": "fontFamilies",
@@ -731,13 +700,7 @@
         "$value": "-0.1"
       }
     },
-    "paragraphSpacing": {
-      "0": {
-        "$type": "paragraphSpacing",
-        "$value": "0"
-      }
-    },
-    "WEB&APP": {
+    "WEB-APP": {
       "Display_L": {
         "$type": "typography",
         "$value": {
@@ -1006,95 +969,90 @@
         "$type": "textDecoration",
         "$value": "underline"
       }
-    },
-    "paragraphIndent": {
-      "0": {
-        "$type": "dimension",
-        "$value": "0px"
-      }
     }
   },
-  "Border Radius": {
+  "border Radius": {
     "radius-none": {
       "$type": "number",
-      "$value": 0
+      "$value": "0"
     },
     "radius-sm": {
       "$type": "number",
-      "$value": 4
+      "$value": "4"
     },
     "radius-md": {
       "$type": "number",
-      "$value": 8
+      "$value": "8"
     },
     "radius-lg": {
       "$type": "number",
-      "$value": 12
+      "$value": "12"
     },
     "radius-round": {
       "$type": "number",
-      "$value": 50
+      "$value": "50"
     }
   },
   "Spacing": {
     "spacing-none": {
       "$type": "number",
-      "$value": 0
+      "$value": "0"
     },
     "spacing-50": {
       "$type": "number",
-      "$value": 4
+      "$value": "4"
     },
     "spacing-100": {
       "$type": "number",
-      "$value": 8
+      "$value": "8"
     },
     "spacing-150": {
       "$type": "number",
-      "$value": 12
+      "$value": "12"
     },
     "spacing-200": {
       "$type": "number",
-      "$value": 16
+      "$value": "16"
     },
     "spacing-250": {
       "$type": "number",
-      "$value": 20
+      "$value": "20"
     },
     "spacing-300": {
       "$type": "number",
-      "$value": 24
+      "$value": "24"
     },
     "spacing-400": {
       "$type": "number",
-      "$value": 28
+      "$value": "28"
     },
     "spacing-500": {
       "$type": "number",
-      "$value": 32
+      "$value": "32"
     },
     "spacing-600": {
       "$type": "number",
-      "$value": 40
+      "$value": "40"
     },
     "spacing-700": {
       "$type": "number",
-      "$value": 48
+      "$value": "48"
     },
     "spacing-800": {
       "$type": "number",
-      "$value": 64
+      "$value": "64"
     },
     "spacing-900": {
       "$type": "number",
-      "$value": 96
+      "$value": "96"
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Core",
-      "Border Radius",
+      "color",
+      "typography",
+      "border Radius",
       "Spacing"
     ]
   }
