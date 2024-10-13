@@ -1,5 +1,5 @@
 {
-  "base": {
+  "Core": {
     "base": {
       "spacing": {
         "50": {
@@ -778,7 +778,7 @@
       }
     }
   },
-  "light": {
+  "Semantic": {
     "ui-color": {
       "light": {
         "primary": {
@@ -1154,202 +1154,11 @@
       }
     }
   },
-  "night": {
-    "ui-color": {
-      "night": {
-        "primary": {
-          "primary": {
-            "value": "{base.palette.primary.white}",
-            "type": "color"
-          },
-          "on-primary": {
-            "value": "{base.palette.gray.900}",
-            "type": "color"
-          }
-        },
-        "secondary": {
-          "red": {
-            "value": "{base.palette.red.500}",
-            "type": "color"
-          },
-          "on-red": {
-            "value": "{base.palette.red.900}",
-            "type": "color"
-          },
-          "blue": {
-            "value": "{base.palette.blue.500}",
-            "type": "color"
-          },
-          "on-blue": {
-            "value": "{base.palette.blue.100}",
-            "type": "color"
-          },
-          "yellow": {
-            "value": "{base.palette.yellow.400}",
-            "type": "color"
-          },
-          "on-yellow": {
-            "value": "{base.palette.yellow.900}",
-            "type": "color"
-          },
-          "green": {
-            "value": "{base.palette.green.500}",
-            "type": "color"
-          },
-          "on-green": {
-            "value": "{base.palette.green.900}",
-            "type": "color"
-          }
-        },
-        "utility": {
-          "error": {
-            "value": "{base.palette.red.500}",
-            "type": "color"
-          },
-          "Highlight": {
-            "value": "{base.palette.blue.600}",
-            "type": "color"
-          },
-          "link": {
-            "value": "{base.palette.red.300}",
-            "type": "color"
-          }
-        },
-        "background": {
-          "background": {
-            "value": "{base.palette.primary.black}",
-            "type": "color"
-          },
-          "on-background": {
-            "value": "{base.palette.primary.white}",
-            "type": "color"
-          }
-        },
-        "surface": {
-          "surface-1": {
-            "value": "{base.palette.gray.800}",
-            "type": "color"
-          },
-          "on-surface-1": {
-            "value": "{base.palette.primary.white}",
-            "type": "color"
-          },
-          "surface-2": {
-            "value": "{base.palette.gray.800}",
-            "type": "color"
-          },
-          "on-surface-2": {
-            "value": "{base.palette.primary.white}",
-            "type": "color"
-          },
-          "surface-3": {
-            "value": "{base.palette.gray.700}",
-            "type": "color"
-          },
-          "on-surface-3": {
-            "value": "{base.palette.primary.white}",
-            "type": "color"
-          }
-        },
-        "stroke": {
-          "gray-2": {
-            "value": "{base.palette.gray.600}",
-            "type": "color"
-          },
-          "gray-3": {
-            "value": "{base.palette.gray.500}",
-            "type": "color"
-          },
-          "gray-1": {
-            "value": "{base.palette.gray.800}",
-            "type": "color"
-          }
-        },
-        "text": {
-          "gray-1": {
-            "value": "{base.palette.gray.700}",
-            "type": "color"
-          },
-          "gray-2": {
-            "value": "{base.palette.gray.600}",
-            "type": "color"
-          },
-          "gray-3": {
-            "value": "{base.palette.gray.400}",
-            "type": "color"
-          },
-          "gray-4": {
-            "value": "{base.palette.gray.300}",
-            "type": "color"
-          },
-          "force": {
-            "value": "{base.palette.yellow.300}",
-            "type": "color"
-          },
-          "force-button": {
-            "value": "{base.palette.yellow.600}",
-            "type": "color"
-          },
-          "force-sale": {
-            "value": "{base.palette.gray.600}",
-            "type": "color"
-          },
-          "category": {
-            "value": "{base.palette.blue.300}",
-            "type": "color"
-          }
-        },
-        "button": {
-          "primary": {
-            "value": "{ui-color.night.primary.primary}",
-            "type": "color"
-          },
-          "on-primary": {
-            "value": "{ui-color.night.primary.on-primary}",
-            "type": "color"
-          },
-          "secondary": {
-            "value": "{ui-color.night.secondary.red}",
-            "type": "color"
-          },
-          "on-secondary": {
-            "value": "{ui-color.night.secondary.on-red}",
-            "type": "color"
-          },
-          "ghost": {
-            "value": "{base.palette.gray.500}",
-            "type": "color"
-          },
-          "on-ghost": {
-            "value": "{ui-color.night.primary.on-primary}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{base.palette.gray.600}",
-            "type": "color"
-          },
-          "on-disabled": {
-            "value": "{base.palette.gray.500}",
-            "type": "color"
-          },
-          "purchase": {
-            "value": "#fdc147",
-            "type": "color"
-          },
-          "on-purchase": {
-            "value": "#191919",
-            "type": "color"
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "base",
-      "light",
-      "night"
+      "Core",
+      "Semantic"
     ]
   }
 }
