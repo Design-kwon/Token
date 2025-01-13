@@ -1,5 +1,5 @@
 {
-  "systemColor": {
+  "aisha": {
     "Gray": {
       "0": {
         "$type": "color",
@@ -990,7 +990,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "systemColor",
+      "aisha",
       "sementicColor",
       "dim",
       "effect",
