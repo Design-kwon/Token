@@ -1,0 +1,553 @@
+{
+  "aisha": {
+    "Gray": {
+      "0": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "200": {
+        "value": "#d0d0d0",
+        "type": "color"
+      },
+      "250": {
+        "value": "#b7b7b7",
+        "type": "color"
+      },
+      "300": {
+        "value": "#9e9e9e",
+        "type": "color"
+      },
+      "350": {
+        "value": "#777777",
+        "type": "color"
+      },
+      "400": {
+        "value": "#4b4b4b",
+        "type": "color"
+      },
+      "600": {
+        "value": "#383838",
+        "type": "color"
+      },
+      "750": {
+        "value": "#2a2a2a",
+        "type": "color"
+      },
+      "800": {
+        "value": "#252525",
+        "type": "color"
+      },
+      "900": {
+        "value": "#111111",
+        "type": "color"
+      },
+      "1000": {
+        "value": "#000000",
+        "type": "color"
+      }
+    },
+    "Green": {
+      "100": {
+        "value": "#bcd9cc",
+        "type": "color"
+      },
+      "200": {
+        "value": "#94c1ac",
+        "type": "color"
+      },
+      "300": {
+        "value": "#72a88e",
+        "type": "color"
+      },
+      "400": {
+        "value": "#5f967a",
+        "type": "color"
+      },
+      "500": {
+        "value": "#4f8568",
+        "type": "color"
+      },
+      "600": {
+        "value": "#35614b",
+        "type": "color"
+      },
+      "700": {
+        "value": "#293f2e",
+        "type": "color"
+      },
+      "Light300": {
+        "value": "#2cfc9a",
+        "type": "color"
+      },
+      "Light100": {
+        "value": "#bcfed6",
+        "type": "color"
+      }
+    },
+    "Purple": {
+      "100": {
+        "value": "#cdc7da",
+        "type": "color"
+      },
+      "200": {
+        "value": "#ada2c2",
+        "type": "color"
+      },
+      "300": {
+        "value": "#8e7ea9",
+        "type": "color"
+      },
+      "400": {
+        "value": "#776397",
+        "type": "color"
+      },
+      "500": {
+        "value": "#624b86",
+        "type": "color"
+      },
+      "600": {
+        "value": "#513e77",
+        "type": "color"
+      },
+      "700": {
+        "value": "#3a2d58",
+        "type": "color"
+      },
+      "Light500": {
+        "value": "#6e33cb",
+        "type": "color"
+      },
+      "Light200": {
+        "value": "#b89ce5",
+        "type": "color"
+      }
+    },
+    "Magenta": {
+      "100": {
+        "value": "#e8bfd5",
+        "type": "color"
+      },
+      "200": {
+        "value": "#dc98bb",
+        "type": "color"
+      },
+      "300": {
+        "value": "#d074a0",
+        "type": "color"
+      },
+      "400": {
+        "value": "#c95d8c",
+        "type": "color"
+      },
+      "500": {
+        "value": "#c44c7a",
+        "type": "color"
+      },
+      "600": {
+        "value": "#863f62",
+        "type": "color"
+      },
+      "700": {
+        "value": "#5f374f",
+        "type": "color"
+      },
+      "Light500": {
+        "value": "#e60962",
+        "type": "color"
+      },
+      "Light200": {
+        "value": "#fe72cf",
+        "type": "color"
+      }
+    },
+    "Blue": {
+      "100": {
+        "value": "#c9d1fe",
+        "type": "color"
+      },
+      "200": {
+        "value": "#a3b4fe",
+        "type": "color"
+      },
+      "300": {
+        "value": "#7996fe",
+        "type": "color"
+      },
+      "400": {
+        "value": "#547cfd",
+        "type": "color"
+      },
+      "500": {
+        "value": "#2c5ae8",
+        "type": "color"
+      },
+      "600": {
+        "value": "#1f4fda",
+        "type": "color"
+      },
+      "700": {
+        "value": "#0530b6",
+        "type": "color"
+      },
+      "Light400": {
+        "value": "#00b8e5",
+        "type": "color"
+      },
+      "Light200": {
+        "value": "#60def7",
+        "type": "color"
+      }
+    },
+    "Red": {
+      "100": {
+        "value": "#ffccd2",
+        "type": "color"
+      },
+      "200": {
+        "value": "#f59899",
+        "type": "color"
+      },
+      "300": {
+        "value": "#ed6f71",
+        "type": "color"
+      },
+      "400": {
+        "value": "#ff5e5e",
+        "type": "color"
+      },
+      "500": {
+        "value": "#fd382f",
+        "type": "color"
+      },
+      "600": {
+        "value": "#dd202a",
+        "type": "color"
+      },
+      "700": {
+        "value": "#c00015",
+        "type": "color"
+      },
+      "Deep500": {
+        "value": "#421e1e",
+        "type": "color"
+      },
+      "Deep200": {
+        "value": "#743d3d",
+        "type": "color"
+      }
+    },
+    "Gold": {
+      "100": {
+        "value": "#f9e9cd",
+        "type": "color"
+      },
+      "200": {
+        "value": "#c0a583",
+        "type": "color"
+      },
+      "300": {
+        "value": "#9f825c",
+        "type": "color"
+      },
+      "400": {
+        "value": "#87693e",
+        "type": "color"
+      },
+      "500": {
+        "value": "#64471b",
+        "type": "color"
+      },
+      "600": {
+        "value": "#563b13",
+        "type": "color"
+      },
+      "700": {
+        "value": "#3c2000",
+        "type": "color"
+      },
+      "Light400": {
+        "value": "#ffd335",
+        "type": "color"
+      },
+      "Light300": {
+        "value": "#fde797",
+        "type": "color"
+      }
+    }
+  },
+  "aisha/effect": {
+    "backgroundBlur": {
+      "L": {
+        "value": "0.875rem",
+        "type": "dimension"
+      },
+      "M": {
+        "value": "0.5rem",
+        "type": "dimension"
+      },
+      "S": {
+        "value": "0.1875rem",
+        "type": "dimension"
+      }
+    },
+    "state-layer": {
+      "surface-dim": {
+        "45": {
+          "value": "#00000073",
+          "type": "color"
+        },
+        "75": {
+          "value": "#000000bf",
+          "type": "color"
+        },
+        "90": {
+          "value": "#000000e6",
+          "type": "color"
+        }
+      },
+      "Primary": {
+        "60": {
+          "value": "linear-gradient(180deg, #72a88ebf 0%, #624b86 100%)",
+          "type": "color"
+        },
+        "75": {
+          "value": "linear-gradient(180deg, #72a88ebf 0%, #624b86 100%)",
+          "type": "color"
+        },
+        "90": {
+          "value": "linear-gradient(180deg, #72a88ebf 0%, #624b86 100%)",
+          "type": "color"
+        }
+      }
+    },
+    "gradient": {
+      "surface": {
+        "primary": {
+          "value": "linear-gradient(180deg, #72a88ebf 0%, #624b86 100%)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "linear-gradient(180deg, #5f374f40 0%, #624b86 100%)",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "linear-gradient(90deg, #975b4200 0%, #72a88e 50.19%, #975b4200 100%)",
+          "type": "color"
+        }
+      },
+      "dim": {
+        "primary": {
+          "value": "linear-gradient(180deg, #000000 40%, #72a88ebf 100%)",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "linear-gradient(180deg, #000000 40%, #5f374f 100%)",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "linear-gradient(0deg, #000000 68.74%, #00000000 100%)",
+          "type": "color"
+        }
+      }
+    },
+    "shadow": {
+      "small": {
+        "value": {
+          "color": "#00000080",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "4",
+          "spread": "0"
+        },
+        "type": "boxShadow"
+      },
+      "medium": {
+        "value": {
+          "color": "#00000080",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "8",
+          "spread": "0"
+        },
+        "type": "boxShadow"
+      },
+      "large": {
+        "value": {
+          "color": "#000000b3",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "8",
+          "spread": "0"
+        },
+        "type": "boxShadow"
+      },
+      "light": {
+        "value": {
+          "color": "#ffffff",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "14",
+          "spread": "0"
+        },
+        "type": "boxShadow"
+      }
+    }
+  },
+  "aisha/sementicColor": {
+    "primary": {
+      "primary": {
+        "value": "{Green.Light300}",
+        "type": "color"
+      },
+      "onPrimary": {
+        "value": "{Gray.900}",
+        "type": "color"
+      },
+      "primaryContainer": {
+        "value": "{Green.600}",
+        "type": "color"
+      },
+      "onPrimaryContainer": {
+        "value": "{Gray.0}",
+        "type": "color"
+      }
+    },
+    "primary Gradient": {
+      "onPrimary": {
+        "value": "{Gray.0}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "secondary": {
+        "value": "{Purple.Light500}",
+        "type": "color"
+      },
+      "onSecondary": {
+        "value": "{Gray.0}",
+        "type": "color"
+      }
+    },
+    "neutral": {
+      "neutral": {
+        "value": "{Gray.900}",
+        "type": "color"
+      },
+      "onNeutral": {
+        "value": "{Gray.0}",
+        "type": "color"
+      },
+      "neutralContainer": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "onNeutralContainer": {
+        "value": "{Gray.750}",
+        "type": "color"
+      }
+    },
+    "error": {
+      "errorWarning": {
+        "value": "{Red.400}",
+        "type": "color"
+      },
+      "onErrorWarning": {
+        "value": "{Gray.1000}",
+        "type": "color"
+      },
+      "onErrorWarningContainer": {
+        "value": "{Red.Deep500}",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "dim": {
+        "value": "{Gray.1000}",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{Gray.900}",
+        "type": "color"
+      },
+      "surfaceBright": {
+        "value": "{Gray.750}",
+        "type": "color"
+      },
+      "onSurfaceHighest": {
+        "value": "{Gray.0}",
+        "type": "color"
+      },
+      "onSurfaceHigh": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "onSurfaceLow": {
+        "value": "{Gray.400}",
+        "type": "color"
+      },
+      "onSurfaceLowest": {
+        "value": "{Gray.350}",
+        "type": "color"
+      },
+      "inverSurface": {
+        "value": "{Gray.0}",
+        "type": "color"
+      },
+      "inverseOnsurface": {
+        "value": "{Gray.900}",
+        "type": "color"
+      }
+    },
+    "outline": {
+      "highest": {
+        "value": "{Gray.0}",
+        "type": "color"
+      },
+      "high": {
+        "value": "{Gray.200}",
+        "type": "color"
+      },
+      "low": {
+        "value": "{Gray.800}",
+        "type": "color"
+      },
+      "gold": {
+        "value": "{Gold.200}",
+        "type": "color"
+      },
+      "lowest": {
+        "value": "{Gray.350}",
+        "type": "color"
+      }
+    }
+  },
+  "aisha/dim": {
+    "dimmed": {
+      "45": {
+        "value": "#00000073",
+        "type": "color"
+      },
+      "75": {
+        "value": "#000000bf",
+        "type": "color"
+      },
+      "90": {
+        "value": "#000000e6",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "aisha",
+      "aisha/effect",
+      "aisha/sementicColor",
+      "aisha/dim"
+    ]
+  }
+}
