@@ -215,55 +215,53 @@
       }
     }
   },
-  "sementic": {
-    "light": {
-      "color": {
-        "brand": {
+  "sementic/light": {
+    "color": {
+      "brand": {
+        "primary": {
           "primary": {
-            "primary": {
-              "value": "{color.palette.gray.900}",
-              "type": "color"
-            },
-            "on-primary": {
-              "value": "{color.palette.gray.50}",
-              "type": "color"
-            }
+            "value": "{color.palette.gray.900}",
+            "type": "color"
           },
-          "secondary": {
-            "red": {
-              "value": "{color.palette.red.500}",
-              "type": "color"
-            },
-            "on-red": {
-              "value": "{color.palette.gray.50}",
-              "type": "color"
-            }
+          "on-primary": {
+            "value": "{color.palette.gray.50}",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "red": {
+            "value": "{color.palette.red.500}",
+            "type": "color"
+          },
+          "on-red": {
+            "value": "{color.palette.gray.50}",
+            "type": "color"
           }
         }
       }
-    },
-    "dark": {
-      "color": {
-        "brand": {
+    }
+  },
+  "sementic/dark": {
+    "color": {
+      "brand": {
+        "primary": {
           "primary": {
-            "primary": {
-              "value": "{color.palette.gray.50}",
-              "type": "color"
-            },
-            "onprmary": {
-              "value": "{color.palette.gray.900}",
-              "type": "color"
-            }
+            "value": "{color.palette.gray.50}",
+            "type": "color"
           },
+          "onprmary": {
+            "value": "{color.palette.gray.900}",
+            "type": "color"
+          }
+        },
+        "secondary": {
           "secondary": {
-            "secondary": {
-              "value": "{color.palette.red.200}",
-              "type": "color"
-            },
-            "onsecondary": {
-              "value": "{color.palette.red.800}",
-              "type": "color"
-            }
+            "value": "{color.palette.red.200}",
+            "type": "color"
+          },
+          "onsecondary": {
+            "value": "{color.palette.red.800}",
+            "type": "color"
           }
         }
       }
@@ -273,7 +271,8 @@
   "$metadata": {
     "tokenSetOrder": [
       "core",
-      "sementic"
+      "sementic/light",
+      "sementic/dark"
     ]
   }
 }
