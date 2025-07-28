@@ -1,6 +1,6 @@
 {
   "": {},
-  "base/Value": {
+  "core": {
     "color": {
       "palette": {
         "purple": {
@@ -656,7 +656,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "",
-      "base/Value",
+      "core",
       "mode/colors/day",
       "mode/colors/dark"
     ]
