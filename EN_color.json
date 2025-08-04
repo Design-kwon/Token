@@ -325,7 +325,7 @@
             "value": "{palette.yellow.600}",
             "type": "color"
           },
-          "yellow": {
+          "base": {
             "value": "{palette.yellow.500}",
             "type": "color"
           }
@@ -519,7 +519,7 @@
             "value": "{palette.yellow.300}",
             "type": "color"
           },
-          "yellow": {
+          "base": {
             "value": "{palette.yellow.300}",
             "type": "color"
           }
