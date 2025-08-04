@@ -1,5 +1,5 @@
 {
-  "core": {
+  "core/color": {
     "palette": {
       "purple": {
         "50": {
@@ -269,23 +269,23 @@
       }
     }
   },
-  "mode/colors/day": {
+  "mode/light": {
     "mode": {
       "secondary": {
         "red": {
-          "container": {
+          "tonal": {
             "value": "{palette.red.100}",
             "type": "color"
           },
-          "on container": {
+          "on tonal": {
             "value": "{palette.red.600}",
             "type": "color"
           },
-          "on red": {
+          "on base": {
             "value": "{palette.base.white}",
             "type": "color"
           },
-          "red": {
+          "base": {
             "value": "{palette.red.600}",
             "type": "color"
           },
@@ -299,29 +299,29 @@
           }
         },
         "blue": {
-          "container": {
+          "tonal": {
             "value": "{palette.blue.100}",
             "type": "color"
           },
-          "on contatiner": {
+          "on tonal": {
             "value": "{palette.blue.600}",
             "type": "color"
           },
-          "blue": {
+          "base": {
             "value": "{palette.blue.500}",
             "type": "color"
           },
-          "on blue": {
+          "on base": {
             "value": "{palette.base.white}",
             "type": "color"
           }
         },
         "yellow": {
-          "container": {
+          "tonal": {
             "value": "{palette.yellow.100}",
             "type": "color"
           },
-          "on container": {
+          "on tonal": {
             "value": "{palette.yellow.600}",
             "type": "color"
           },
@@ -331,29 +331,29 @@
           }
         },
         "green": {
-          "container": {
+          "tonal": {
             "value": "{palette.green.100}",
             "type": "color"
           },
-          "on container": {
+          "on tonal": {
             "value": "{palette.green.700}",
             "type": "color"
           },
-          "green": {
+          "base": {
             "value": "{palette.green.700}",
             "type": "color"
           },
-          "on green": {
+          "on base": {
             "value": "{palette.base.white}",
             "type": "color"
           }
         },
         "purple": {
-          "on container": {
+          "on tonal": {
             "value": "{palette.purple.800}",
             "type": "color"
           },
-          "container": {
+          "tonal": {
             "value": "{palette.purple.200}",
             "type": "color"
           }
@@ -366,20 +366,24 @@
         }
       },
       "surface": {
-        "bright": {
+        "1": {
           "value": "{palette.base.white}",
           "type": "color"
         },
-        "surface": {
+        "2": {
+          "value": "{palette.gray.100}",
+          "type": "color"
+        },
+        "3": {
+          "value": "{palette.purple.100}",
+          "type": "color"
+        },
+        "4": {
           "value": "{palette.purple.100}",
           "type": "color"
         },
         "background": {
           "value": "{palette.purple.50}",
-          "type": "color"
-        },
-        "veriant": {
-          "value": "{palette.gray.100}",
           "type": "color"
         }
       },
@@ -418,23 +422,23 @@
         }
       },
       "stroke": {
-        "Stroke 1": {
+        "1": {
           "value": "{palette.gray.100}",
           "type": "color"
         },
-        "Stroke 2": {
-          "value": "{palette.gray.200}",
+        "2": {
+          "value": "{palette.gray.300}",
           "type": "color"
         },
-        "Stroke 3": {
+        "3": {
           "value": "{palette.gray.400}",
           "type": "color"
         },
-        "Stroke 4": {
+        "4": {
           "value": "{palette.gray.600}",
           "type": "color"
         },
-        "Stroke 5": {
+        "5": {
           "value": "{palette.gray.900}",
           "type": "color"
         }
@@ -459,23 +463,23 @@
       }
     }
   },
-  "mode/colors/dark": {
+  "mode/dark": {
     "mode": {
       "secondary": {
         "red": {
-          "container": {
+          "tonal": {
             "value": "{palette.red.800}",
             "type": "color"
           },
-          "on container": {
+          "on tonal": {
             "value": "{palette.red.300}",
             "type": "color"
           },
-          "on red": {
+          "on base": {
             "value": "{palette.base.white}",
             "type": "color"
           },
-          "red": {
+          "base": {
             "value": "{palette.red.500}",
             "type": "color"
           },
@@ -489,29 +493,29 @@
           }
         },
         "blue": {
-          "container": {
+          "tonal": {
             "value": "{palette.blue.700}",
             "type": "color"
           },
-          "on contatiner": {
+          "on tonal": {
             "value": "{palette.blue.200}",
             "type": "color"
           },
-          "blue": {
+          "base": {
             "value": "{palette.blue.300}",
             "type": "color"
           },
-          "on blue": {
+          "on base": {
             "value": "{palette.blue.800}",
             "type": "color"
           }
         },
         "yellow": {
-          "container": {
+          "tonal": {
             "value": "{palette.yellow.800}",
             "type": "color"
           },
-          "on container": {
+          "on tonal": {
             "value": "{palette.yellow.300}",
             "type": "color"
           },
@@ -521,29 +525,29 @@
           }
         },
         "green": {
-          "container": {
+          "tonal": {
             "value": "{palette.green.800}",
             "type": "color"
           },
-          "on container": {
+          "on tonal": {
             "value": "{palette.green.300}",
             "type": "color"
           },
-          "green": {
+          "base": {
             "value": "{palette.green.400}",
             "type": "color"
           },
-          "on green": {
+          "on base": {
             "value": "{palette.green.900}",
             "type": "color"
           }
         },
         "purple": {
-          "on container": {
+          "on tonal": {
             "value": "{palette.purple.100}",
             "type": "color"
           },
-          "container": {
+          "tonal": {
             "value": "{palette.purple.800}",
             "type": "color"
           }
@@ -556,20 +560,24 @@
         }
       },
       "surface": {
-        "bright": {
+        "1": {
           "value": "{palette.gray.800}",
           "type": "color"
         },
-        "surface": {
+        "2": {
+          "value": "{palette.gray.750}",
+          "type": "color"
+        },
+        "3": {
           "value": "{palette.purple.900}",
+          "type": "color"
+        },
+        "4": {
+          "value": "{palette.gray.800}",
           "type": "color"
         },
         "background": {
           "value": "{palette.gray.900}",
-          "type": "color"
-        },
-        "veriant": {
-          "value": "{palette.gray.750}",
           "type": "color"
         }
       },
@@ -608,23 +616,23 @@
         }
       },
       "stroke": {
-        "Stroke 1": {
+        "1": {
           "value": "{palette.gray.800}",
           "type": "color"
         },
-        "Stroke 2": {
+        "2": {
           "value": "{palette.gray.700}",
           "type": "color"
         },
-        "Stroke 3": {
+        "3": {
           "value": "{palette.gray.600}",
           "type": "color"
         },
-        "Stroke 4": {
+        "4": {
           "value": "{palette.gray.400}",
           "type": "color"
         },
-        "Stroke 5": {
+        "5": {
           "value": "{palette.gray.50}",
           "type": "color"
         }
@@ -652,10 +660,9 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "",
-      "core",
-      "mode/colors/day",
-      "mode/colors/dark"
+      "core/color",
+      "mode/light",
+      "mode/dark"
     ]
   }
 }
